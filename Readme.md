@@ -2,8 +2,6 @@
 
 This instructions explains how to install [OONI Probe CLI](https://github.com/ooni/probe-cli) on Raspberry Pi 4
 
-**Thanks to the ["MTita"](https://github.com/mdtita) ♡**
-
 ## Requirements
 
 - Raspberry Pi 4
@@ -74,6 +72,7 @@ You'll need to add your wireless network name and password.
  
 
 `sudo apt-get upgrade`
+
 ## Download & install Go Programming Language (Golang)
 
 - Make sure that `weget` is installed on the Raspberry Pi, or install it via the following command:
@@ -131,3 +130,5 @@ You can run `OONI Probe CLI` via the following command:
 ### Usage
 
 Run `./ooniprobe help` command to get usage of `OONI Probe CLI`
+
+**Thanks to the ["MTita"](https://github.com/mdtita) ♡**
