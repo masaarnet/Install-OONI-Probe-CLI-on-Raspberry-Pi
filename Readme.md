@@ -71,7 +71,7 @@ You'll need to add your wireless network name and password.
 
 `Password: raspberry`
 
-**Use the following commands to update Raspberry Pi**
+**Use the following commands to update Raspberry Pi OS:**
 
 `sudo -i`
 
