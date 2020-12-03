@@ -1,4 +1,4 @@
-# Install OONI Probe CLI on Raspberry Pi
+# Install OONI Probe CLI on Raspberry Pi 4
 
 This instructions explains how to install [OONI Probe CLI](https://github.com/ooni/probe-cli) on Raspberry Pi 4
 
