@@ -27,8 +27,8 @@ This instructions explains how to install [OONI Probe CLI](https://github.com/oo
 #### Enable SSH and WiFi
 
 - all instructions will use SSH connection to Raspberry Pi device. You don't need a monitor, keyboard, and mouse to implement this guide.
-- To enable SSH, create an empty file called "ssh" in the boot directory
-- To enable WiF,i create a file called wpa_supplicant.conf. Add the following to this file, in the boot directory:
+- To enable SSH, create an empty file called `ssh` in the boot directory
+- To enable WiF,i create a file called `wpa_supplicant.conf`. Add the following to this file, in the boot directory:
 
 `ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev`
 
