@@ -63,9 +63,12 @@ You'll need to add your wireless network name and password.
 
 - Use SSH to connect to Raspberry via command: Pi: `ssh pi@192.168.1.7`
 
-*you'll need to change IP (192.168.1.7)  to yours.
-***the default login name and password:**
+*you'll need to change IP (192.168.1.7)  to yours.*
+
+**the default login name and password:**
+
 `Username: pi`
+
 `Password: raspberry`
 
 **Use the following commands to update Raspberry Pi**
