@@ -2,6 +2,8 @@
 
 This instructions explains how to install [OONI Probe CLI](https://github.com/ooni/probe-cli) on Raspberry Pi 4
 
+**Thanks to the ["MTita"](https://github.com/mdtita) ♡**
+
 ## Requirements
 
 - Raspberry Pi 4
