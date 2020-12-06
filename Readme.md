@@ -28,7 +28,7 @@ This instructions explains how to install [OONI Probe CLI](https://github.com/oo
 
 - all instructions will use SSH connection to Raspberry Pi device. You don't need a monitor, keyboard, and mouse to implement this guide.
 - To enable SSH, create an empty file called `ssh` in the boot directory
-- To enable WiF,i create a file called `wpa_supplicant.conf`. Add the following to this file, in the boot directory:
+- To enable WiFi, create a file called `wpa_supplicant.conf`. Add the following to this file, in the boot directory:
 
 `ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev`
 
@@ -129,7 +129,8 @@ Or, get the last version of `Golang` via the [link](https://golang.org/dl/). Mak
 
  
 
-`go build -v ./cmd/ooniprobe`
+`go build -ldflags='-s -w' -v ./cmd/ooniprobe`
+
 ### Run  OONI Probe CLI
 
 You can run `OONI Probe CLI` via the following command:
